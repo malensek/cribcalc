@@ -38,11 +38,6 @@
                 includeantruntime="false">
 
             <compilerarg value="-Xlint"/>
-
-            <!-- These can be enabled selectively using ant command line options
-              (-Dbuild.tests=true) or you can override these properties by
-              creating a build.properties file for your local environment -->
-            <exclude name="jcrib/tests/**" unless="build.tests"/>
         </javac>
     </target>
 
