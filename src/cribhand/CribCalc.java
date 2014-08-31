@@ -11,7 +11,7 @@ import jcrib.cards.Card;
 import jcrib.cards.Deck;
 import jcrib.cards.Hand;
 
-public class CribHand {
+public class CribCalc {
 
     public static void main(String[] cards) {
 
