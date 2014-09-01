@@ -1,4 +1,4 @@
-package cribhand;
+package cribcalc;
 
 import java.util.ArrayList;
 
