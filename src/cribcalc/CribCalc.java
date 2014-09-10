@@ -52,7 +52,6 @@ public class CribCalc {
             Card c = it.next();
             it.remove();
 
-            baseHand.removeCard(c);
             Hand newCurrent = new Hand(currentHand);
             newCurrent.addCard(c);
 
