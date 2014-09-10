@@ -26,7 +26,7 @@ public class CribCalc {
         for (Hand h : handCombinations) {
             System.out.println(h);
             int total = 0;
-            for (Score s : Scoring.scoreHand(h, new Card("JS"))) {
+            for (Score s : Scoring.scoreHand(h)) {
                 total += s.getPoints();
             }
             System.out.println(total + " points");
